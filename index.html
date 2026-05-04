@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuenta atras - Juego del Pinguino</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="countdown-page">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="snow" aria-hidden="true"></div>
+
+        <div class="content">
+          <p class="kicker">Proyecto del juego del pinguino</p>
+          <h1 id="page-title">La entrega se acerca</h1>
+          <p class="deadline">
+            Viernes 8 de mayo de 2026 · 23:59:59
+          </p>
+
+          <div class="timer" role="timer" aria-live="polite">
+            <div class="time-box">
+              <strong id="days">00</strong>
+              <span>Dias</span>
+            </div>
+            <div class="time-box">
+              <strong id="hours">00</strong>
+              <span>Horas</span>
+            </div>
+            <div class="time-box">
+              <strong id="minutes">00</strong>
+              <span>Minutos</span>
+            </div>
+            <div class="time-box urgent">
+              <strong id="seconds">00</strong>
+              <span>Segundos</span>
+            </div>
+          </div>
+
+          <p id="message" class="message">
+            El pinguino ya esta mirando el reloj.
+          </p>
+        </div>
+
+        <div class="penguin-scene" aria-hidden="true">
+          <div class="iceberg">
+            <div class="penguin">
+              <div class="head">
+                <span class="eye left"></span>
+                <span class="eye right"></span>
+                <span class="beak"></span>
+              </div>
+              <div class="body">
+                <span class="belly"></span>
+                <span class="flipper left"></span>
+                <span class="flipper right"></span>
+              </div>
+              <span class="foot left"></span>
+              <span class="foot right"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
